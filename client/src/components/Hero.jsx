@@ -10,7 +10,7 @@ const Hero = () => {
       <h1 className="font-playfair text-2xl md:text-5xl md:text-[56px] md:leading-[56px] font-bold md:font-extrabold max-w-xl mt-4">
         Discover Your Perfect Gateway Destibnation
       </h1>
-      <p>
+      <p className="w-2/5">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta corporis
         magni neque cumque in minus voluptatem dolore dignissimos facere hic!
       </p>
