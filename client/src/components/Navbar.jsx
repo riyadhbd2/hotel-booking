@@ -2,6 +2,7 @@ import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
+import logo from "../assets/main-logo.png";
 
 const BookIcon = () => (
   <svg
@@ -64,12 +65,14 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <Link to="/" className="">
+      <Link to="/" className="flex items-center justify-center gap-2">
         <img
-          src={assets.logo}
+          src={logo}
           alt="logo"
-          className={`h-9 ${isScrolled && "invert opacity-80"}`}
+          className={`h-20 ${isScrolled && "invert opacity-80"}`}
+          // className="w-20 "
         />
+        <h1 className={`text-extrabold text-5xl ${isScrolled ? "text-gray-700" : "text-white"} `}>Royal Stay</h1>
       </Link>
 
       {/* Desktop Nav */}
