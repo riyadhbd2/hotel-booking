@@ -72,7 +72,7 @@ const Navbar = () => {
           className={`h-20 ${isScrolled && "invert opacity-80"}`}
           // className="w-20 "
         />
-        <h1 className={`text-extrabold text-5xl ${isScrolled ? "text-gray-700" : "text-white"} `}>Royal Stay</h1>
+        <h1 className={`text-bold text-5xl ${isScrolled ? "text-gray-700" : "text-white"} `}>Royal Stay</h1>
       </Link>
 
       {/* Desktop Nav */}
