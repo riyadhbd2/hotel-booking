@@ -6,7 +6,7 @@ const MyBookings = () => {
   const [bookings, setBookings] = useState(userBookingsDummyData);
 
   return (
-    <div className="py-28 md:pt-32 md:pb-36 px-4 sm:px-8 lg:px-16 xl:px-24">
+    <div className="py-28 md:pt-32 md:pb-36 px-4 sm:px-8 lg:px-16 xl:px-36">
       <Title
         title="My Bookings"
         subTitle="Easily manage your past, current and upcoming hotel reservations in one place."
