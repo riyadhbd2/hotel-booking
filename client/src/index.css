@@ -4,15 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@theme {
-    --color-primary: #2563EB;
-    --color-secondary: #FBBF24;
+/* ✅ Define custom CSS variables globally */
+:root {
+  --color-primary: #2563EB;
+  --color-secondary: #FBBF24;
 }
 
+/* ✅ Global styles */
 * {
   font-family: 'Outfit', sans-serif;
 }
 
+/* ✅ Custom utility override */
 .font-playfair {
   font-family: 'Playfair', serif !important;
 }
+
